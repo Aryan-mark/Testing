@@ -17,10 +17,10 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       title: 'Flutter Riverpod Example',
       //home: StateProviderPage(),
-      // home: FutureProviderScreen(),
+      home: FutureProviderScreen(),
       //home: StreamProviderScreen(),
       // home: StateNotifierProviderScreen(),
-      home: ChangeNotifierProviderScreen(),
+      // home: ChangeNotifierProviderScreen(),
     );
   }
 }
